@@ -14,4 +14,4 @@ then open <br>                            <br>
 <code>python face_detect.py  </code>                  <br>
                           
 <h1>NOTE :</h1>                                           
-PRESS 'q' to EXIT FROM A PROGRAM                                    <br>
+PRESS 'q' to EXIT FROM THE  PROGRAM                                    <br>
