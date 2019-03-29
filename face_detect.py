@@ -36,8 +36,8 @@ while 1:
 			cv2.putText(frame, name, (x,y), font,1, color, stroke, cv2.LINE_AA)
 			
 		roi_col=frame#[y:y+h,x:x+w]				#now it capture the full frame when the face is detected
-		img="pic/shalini/img_"+str(x)+".JPG"
-		cv2.imwrite(img,roi_col)		#to capture the face 
+		img="IMG/img_"+str(x)+".JPG"
+		#cv2.imwrite(img,roi_col)		#to capture the face 
 		color=(0,0,255)
 		stroke=2
 		width= x + w	
