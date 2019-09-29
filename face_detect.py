@@ -1,6 +1,7 @@
+#!/usr/bin/env python
 import numpy as np
 import cv2,pickle,os
-import webbrowser,pyttsx
+import webbrowser
 
 cam = cv2.VideoCapture(0)
 face_casade=cv2.CascadeClassifier("data/haarcascade_frontalface_alt2.xml")
